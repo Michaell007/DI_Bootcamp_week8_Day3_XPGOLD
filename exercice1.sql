@@ -1,6 +1,6 @@
 -- 1- Obtenez une liste de toutes les locations qui sont sorties (n'ont pas été rendues). Comment identifier ces films dans la base de données ?
 
-SELECT * FROM rental WHERE return_date IS NULL;
+SELECT * FROM rental WHERE return_date IS NULL; 
 
 -- 2- Obtenez une liste de tous les clients qui n'ont pas rendu leurs locations. Assurez-vous de grouper vos résultats.
 
